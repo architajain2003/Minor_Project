@@ -1,70 +1,61 @@
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          LOGO
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Features
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Pricing
-              </a>
-            </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown link
-              </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg p-0">
+        <div class="container">
+          <a class="navbar-brand p-0 logo" href="/" title="Edu Tech">
+            LOGO
+            {/* <img src="assets/images/logo.svg" alt="logo" /> */}
+          </a>
+          <i
+            class="fa-solid fa-bars navbar-toggler shadow-none border-0 p-0"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+          ></i>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-lg-auto align-items-lg-center">
+              <li class="nav-item">
+                <a
+                  class="nav-link d-inline-block"
+                  aria-current="page"
+                  href="#features"
+                  title="Features"
+                >
+                  Features
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="#Class" title="Class">
+                  Class
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link d-inline-block"
+                  href="#Blog"
+                  title="Products"
+                >
+                  Blog
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link d-inline-block"
+                  href="#Contacts"
+                  title="Contacts"
+                >
+                  Contacts
+                </a>
+              </li>
+            </ul>
+            <a href="/signin" class=" btn theme-button d-lg-block d-none">
+              Join Now
+            </a>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 };
 

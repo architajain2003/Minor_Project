@@ -1,0 +1,97 @@
+body {
+  background-color: white;
+}
+/* NAVBAR STARTS */
+header {
+  top: 0;
+  position: sticky;
+  z-index: 99;
+}
+nav.navbar {
+  display: flex;
+  background-color: #fcdab3;
+  height: 4rem;
+  color: white;
+}
+.theme-button {
+  background-color: orangered;
+  border-radius: 2rem;
+  color: white;
+}
+/* NAVBAR ENDS */
+
+/* HERO BANNER STARTS */
+.hero-banner {
+  background-color: #fcdab3;
+  padding-top: 100px;
+}
+.inner-box-left {
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+}
+.inner-box-left h1 {
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.inner-box-left h1 span {
+  color: orangered;
+}
+.inner-box-left p {
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+.inner-box-right .image {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  /* justify-content: ; */
+}
+.play-btn {
+  color: orangered;
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 2rem;
+  margin-left: 30px;
+}
+.play-btn i {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+@media (max-width: 575px) {
+  .inner-box-right img {
+    display: block;
+    width: 100%;
+    padding: 20px;
+  }
+  .play-btn i {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+}
+
+/* Sign in container */
+.signin-page {
+  background-color: #fcdab3;
+  height: 90vh;
+  padding-top: 100px;
+}
+.signin-container {
+  background-color: white;
+  width: 50%;
+  padding: 30px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.con-btn {
+  margin-top: 20px;
+  width: 100%;
+}
