@@ -95,3 +95,152 @@ nav.navbar {
   margin-top: 20px;
   width: 100%;
 }
+
+/* FEATURES starts */
+
+.slick-track {
+  opacity: 1;
+  width: 4180px;
+  transform: translate3d(-2280px, 0px, 0px);
+}
+
+/* FEATURES ends */
+
+/* Class FEATURES starts */
+.physical-classroom {
+  padding: 6rem;
+}
+
+.inner-box h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+}
+
+.inner-box p {
+  font-size: 1rem;
+  opacity: 0.7;
+  /* font-weight: 700; */
+  line-height: 1.5rem;
+  padding-bottom: 20px;
+}
+
+.inner-box h3 span {
+  color: orangered;
+}
+
+.inner-box img {
+  border-radius: 20px;
+}
+
+/* Class FEATURES end */
+
+/* Popular courses section starts */
+ul {
+  list-style-type: none;
+}
+.course {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  max-width: 1180px;
+}
+.section-subtitle {
+  text-align: center;
+  color: blue;
+  text-transform: uppercase;
+  font-weight: var(--fw-800);
+  letter-spacing: 2px;
+  margin-block-end: 5px;
+}
+.section-title {
+  text-align: center;
+}
+.grid-list {
+  grid-template-columns: repeat(3, 1fr);
+}
+.course-card {
+  position: relative;
+  background-color: var(--white);
+  border-radius: var(--radius-6);
+  overflow: hidden;
+}
+.course-card .card-banner {
+  background-color: var(--light-gray);
+  aspect-ratio: 370 / 270;
+  overflow: hidden;
+}
+.course-card .card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.course-card .card-content {
+  padding-inline: 30px;
+  padding-block-end: 30px;
+}
+.course-card .card-meta-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+.h3 {
+  font-size: var(--fs-4);
+  font-weight: var(--fw-700);
+}
+.course-card .rating-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block-end: 25px;
+}
+.course-card .card-footer {
+  padding-block-start: 25px;
+  border-block-start: 1px solid var(--cultured-2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.course-card .card-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.course-card .whishlist-btn {
+  background-color: var(--space-cadet_20);
+  color: var(--white);
+  font-size: 18px;
+  padding: 6px;
+  margin: 5px;
+  border-radius: 50%;
+  backdrop-filter: blur(10px);
+}
+.course-card .card-title {
+  line-height: 1.6;
+  margin-block: 10px 15px;
+  transition: var(--transition-1);
+}
+.course-card .rating {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: var(--orange-peel);
+  font-size: 18px;
+}
+.course-card .card-price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+/* Popular courses section ends */
