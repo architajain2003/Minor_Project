@@ -243,4 +243,14 @@ ul {
   align-items: center;
   gap: 10px;
 }
+.course-btn {
+  background-color: orangered;
+  border-color: orangered;
+  margin-left: auto;
+  margin-right: auto;
+}
+.course-btn:hover {
+  background-color: orangered;
+  border: orangered;
+}
 /* Popular courses section ends */
